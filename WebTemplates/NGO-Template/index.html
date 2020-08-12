@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="nav-link-wrapper">
+                    <a href="about.html">MaithiliLohakare</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="foundation-items-wrapper">
+            <div class="foundation-item-wrapper">
+                <div class="foundation-img-background" style="background-image: url(images/1.jpg);"></div>
+                <div class="img-text-wrapper">
+                <div class="subtitle">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="foundation-item-wrapper">
+                    <div class="foundation-img-background" style="background-image: url(images/2.jpg);"></div>
+                    <div class="img-text-wrapper">
+                    <div class="subtitle">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    </div>
+            </div>
+            <div class="foundation-item-wrapper">
+                    <div class="foundation-img-background" style="background-image: url(images/3.jpg);"></div>
+                    <div class="img-text-wrapper">
+                    <div class="subtitle">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    </div>
+            </div>
+            <div class="foundation-item-wrapper">
+                    <div class="foundation-img-background" style="background-image: url(images/4.jpg);"></div>
+                    <div class="img-text-wrapper">
+                    <div class="subtitle">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    </div>
+            </div>
+            <div class="foundation-item-wrapper">
+                    <div class="foundation-img-background" style="background-image: url(images/5.jpg);"></div>
+                    <div class="img-text-wrapper">
+                    <div class="subtitle">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    </div>
+            </div>
+            <div class="foundation-item-wrapper">
+                <div class="foundation-img-background" style="background-image: url(images/6.jpg);"></div>
+                <div class="img-text-wrapper">
+                <div class="subtitle">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="foundation-item-wrapper">
+                <div class="foundation-img-background" style="background-image: url(images/7.jpg);"></div>
+                <div class="img-text-wrapper">
+                <div class="subtitle">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="foundation-item-wrapper">
+                <div class="foundation-img-background" style="background-image: url(images/8.jpg);"></div>
+                <div class="img-text-wrapper">
+                <div class="subtitle">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="foundation-item-wrapper">
+                <div class="foundation-img-background" style="background-image: url(images/9.jpg);"></div>
+                <div class="img-text-wrapper">
+                <div class="subtitle">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
 
+
+
+</div>
+    
+</body>
+<script>
+    const foundationItems = document.querySelectorAll('.foundation-item-wrapper')
+    foundationItems.forEach(foundationItem => {
+        foundationItem.addEventListener('mouseover', () => {
+            foundationItem.childNodes[1].classList.add('img-darken');
+        })
+        foundation.addEventListener('mouseout', () => {
+            foundationItem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+</html>
